@@ -1,15 +1,14 @@
 # Employee Performance Analysis
-## INX Future Inc.
+
 
 #  Project Summary
 
-### Requirement
-   INX Future Inc, is one of the leading data analytics and automation solutions provider with over 15 years of global business presence. In recent years, the employee performance indexes are not healthy and this has become a growing concern among the top management. The CEO Mr. Brain, decided to initiate a data science project, which analyzes the current employee data and find the core underlying causes of the performance issues. He also expects a clear indicators of non-performing employees, so that any penalization of non-performing employee, if required, may not significantly affect other employee morals.             
+### Requirement           
    The following insights are expected from this project:
 - Department wise performances.
 - Top 3 Important Factors effecting employee performance.
 - A trained model which can predict the employee performance based on factors as inputs.
-- Recommendations to improve the employee performance based on insights from analysis.
+- Streamlit app for visualizing the data and create an interesting UI 
 
 ### Analysis
 - The data is supervised and categorical. The predictor variables are ordinal and a few among them are nominal. The target variable 'Performance Rating' is ordinal. 
@@ -41,4 +40,12 @@
 -    We can conclude that the company should provide a better environment as it increases the performance drastically. The company should increase the salary of the employee from time to time and help them maintain a worklife balance. On the other hand, shuffling the manager from time to time will also affect performance. 
 
 ### Recommendation
-- From the results, we can conclude that the company should provide a better environment as it increases the performance drastically. The company should increase the salary of the employee from time to time and help them maintain a worklife balance. On the other hand, shuffling the manager from time to time will also affect performance.   
+- From the results, we can conclude that the company should provide a better environment as it increases the performance drastically. The company should increase the salary of the employee from time to time and help them maintain a worklife balance. On the other hand, shuffling the manager from time to time will also affect performance. 
+
+### Data app using Streamlit
+-  After identifying the algorithm with the best accuracy, this model is used to create an app using streamlit. SLiders and radio buttons are used to select the employee performance. Based on this selection, the performance rating of the employee will be updated.
+-  Install  streamlit before running the app using the following command
+##### pip install streamlit
+
+### To run the app (run the following command from the root directory) 
+##### streamlit run emp-perf-app.py
