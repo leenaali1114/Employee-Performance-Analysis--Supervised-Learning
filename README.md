@@ -1,5 +1,6 @@
 # Employee Performance Analysis
-
+The training of the data has been done using the code from https://github.com/AkshayDusad/Employee-Performance-Analysis
+PLease refer the above link if you face issues.
 
 #  Project Summary
 
